@@ -118,7 +118,6 @@ class TyokokoroneAI(object):
         move = best_place(board, stone)
         return move
         
-!pip install -U kogi-canvas
 
 from kogi_canvas import play_othello
 play_othello(TyokokoroneAI())  # 強いAIをプレイに使う
