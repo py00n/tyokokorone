@@ -117,6 +117,7 @@ class TyokokoroneAI(object):
         # 最適な場所を探す
         move = best_place(board, stone)
         return move
+#test
 
 !pip install -U kogi-canvas
 
